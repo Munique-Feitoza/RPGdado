@@ -1,3 +1,3 @@
-# dadosAleatorios
+# dadoAleatorio
 
-Criador de números de dado aleatórios
+Criador de números de dado aleatório.
