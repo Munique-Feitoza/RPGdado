@@ -2,7 +2,7 @@ body {
   text-shadow: rgba(10,10,10,50%) 2px 2px 8px;
   color: white;
   height: 100%;
-  background: linear-gradient(300deg, rgba(20,20,20,90%), red);
+  background: linear-gradient(300deg, rgba(0,0,0,90%), red);
 }
 h1 {
   font-size: 50px;
