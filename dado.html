@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-br"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="styles.css"> 
+  <title>Dado</title> 
+ <style type="text/css" id="dcoder_stylesheet">body {
+  height: 100%;
+  background: linear-gradient(300deg, #C09891, #BEA8A7);
+}
+
+p {
+  font-size: 50px;
+  font-family: sans serif;
+  text-align: center;
+}
+button {
+  padding: 5% 20%;
+  font-size: 20px;
+  margin: 10% 25% 100% 25%;
+  border-radius: 20px;
+  border: none;
+  background-color: #EFF2F9;
+  box-shadow: 5px 5px 10px #161B1D23;
+}</style></head> 
+ <body> 
+  <p class="num1">?</p> 
+  <p class="num2">?</p> 
+  <p class="num3">?</p> 
+  <br> <button>Jogar</button> 
+  <script src="index.js"></script> 
+ 
+<script type="text/javascript" id="dcoder_script">let btn = document.querySelector("button");
+
+btn.addEventListener("click", () => {
+  document.querySelector(".num1").innerHTML = 
+    Math.floor(Math.random() * 6 ) + 1;
+  document.querySelector(".num2").innerHTML = 
+    Math.floor(Math.random() * 6 ) + 1;
+  document.querySelector(".num3").innerHTML = 
+    Math.floor(Math.random() * 6 ) + 1;
+});</script></body></html>
