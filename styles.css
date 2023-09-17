@@ -1,0 +1,19 @@
+body {
+  height: 100%;
+  background: linear-gradient(300deg, #C09891, #BEA8A7);
+}
+
+p {
+  font-size: 50px;
+  font-family: sans serif;
+  text-align: center;
+}
+button {
+  padding: 5% 20%;
+  font-size: 20px;
+  margin: 10% 25% 100% 25%;
+  border-radius: 20px;
+  border: none;
+  background-color: #EFF2F9;
+  box-shadow: 5px 5px 10px #161B1D23;
+}
