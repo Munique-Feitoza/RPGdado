@@ -1,3 +1,3 @@
-# dadoAleatorio
+# Dado de RPG
 
-Criador de números de dado aleatório.
+Criador de números de dado para RPG.
